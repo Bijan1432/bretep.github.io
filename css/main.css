@@ -47,8 +47,8 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee|Muli:300,400,600,700,800,900|Poppins:300,400,500,600,700,800,900|Prompt:300,400,500,600,700,800&display=swap');
 /*font-family: 'Poppins', sans-serif;
 font-family: 'Prompt', sans-serif;
-font-family: 'Handlee', cursive;
-font-family: 'Muli', sans-serif;*/
+/* font-family: 'Handlee', cursive; */
+/* font-family: 'Muli', sans-serif;*/ 
 
 @import url('font-awesome.css');
 @import url('flaticon.css');
@@ -72,6 +72,11 @@ font-family: 'Muli', sans-serif;*/
     border: none;
     outline: none;
 }
+:root{
+    --light-blue: #009edde0;
+    --vl-blue: #6cc5ee;
+
+}
 
 /*** 
 
@@ -84,7 +89,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Prompt', sans-serif;
+    font-family:'Poppins', sans-serif;
     font-size: 14px;
     color: #777777;
     line-height: 1.7em;
@@ -101,7 +106,8 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: #fc5655;
+    color: var(--light-blue);
+
 }
 
 button,
@@ -221,7 +227,7 @@ img {
     font-weight: 400;
     overflow: hidden;
     overflow: hidden;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
     text-transform: capitalize;
 }
 
@@ -265,7 +271,7 @@ img {
     display: inline-block;
     font-size: 15px;
     line-height: 30px;
-    color: #fc5655;
+    color: var(--light-blue);
     padding: 11px 30px;
     font-weight: 500;
     overflow: hidden;
@@ -338,7 +344,7 @@ img {
 
 .btn-style-three:hover {
     color: #ffffff;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 /* Btn Style Four */
@@ -423,7 +429,7 @@ img {
 
 .btn-style-five:hover {
     color: #ffffff;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 /* Btn Style Six */
@@ -503,13 +509,13 @@ img {
 }
 
 .social-icon-one li a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 .sticky-header .social-icon-one li a{
     color: #000000;
 }
 .theme_color {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .preloader {
@@ -565,7 +571,7 @@ img {
 
 .scroll-to-top:hover {
     color: #ffffff;
-    background: #fc5655;
+    background: var(--light-blue);
 }
 
 /*** 
@@ -584,12 +590,12 @@ img {
 
 .sec-title .title {
     position: relative;
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 30px;
     font-weight: 400;
     z-index: 1;
     display: inline-block;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .sec-title .title:before {
@@ -939,7 +945,7 @@ img {
 
 .main-menu .navigation>li:hover>a,
 .main-menu .navigation>li.current>a {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .main-header.header-style-two .social-icon-one li a {
@@ -1021,7 +1027,7 @@ img {
 .main-menu .navigation>li>ul>li:hover>a {
     color: #ffffff;
     padding-left: 30px;
-    background: #fc5655;
+    background: var(--light-blue);
 }
 
 .main-menu .navigation>li>ul>li.dropdown>a:after {
@@ -1101,7 +1107,7 @@ img {
 .main-menu .navigation>li>ul>li>ul>li:hover>a {
     color: #ffffff;
     padding-left: 30px;
-    background: #fc5655;
+    background: var(--light-blue);
 }
 
 .main-menu .navigation>li>ul>li>ul>li.dropdown>a:after {
@@ -1287,7 +1293,7 @@ img {
     position: relative;
     color: #ffffff;
     font-size: 42px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .banner-section .content-box .inner-box {
@@ -1314,7 +1320,7 @@ img {
     right: 0px;
     bottom: 0px;
     z-index: -1;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 .banner-section .content-box .inner-box .pattern-layer:before {
@@ -1420,7 +1426,7 @@ img {
     font-size: 40px;
     font-weight: 400;
     margin-top: 20px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .featured-block .block-inner h4 {
@@ -1482,7 +1488,7 @@ img {
     text-align: center;
     border-radius: 50%;
     padding-left: 4px;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
     display: inline-block;
     transition: all 900ms ease;
     -moz-transition: all 900ms ease;
@@ -1622,7 +1628,7 @@ img {
 }
 
 .service-block .inner-box .upper-box h3 a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .service-block .inner-box .text {
@@ -1664,7 +1670,7 @@ img {
 .call-to-action-section {
     position: relative;
     padding: 100px 0px 80px;
-    background-color: rgba(252, 86, 85, 0.20);
+    background-color: rgba(85, 199, 252, 0.2);
 }
 
 .call-to-action-section.style-two {
@@ -1707,11 +1713,11 @@ img {
     font-weight: 400;
     line-height: 1.3em;
     text-align: center;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .call-to-action-section h2 span {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .call-to-action-section .pattern-layer {
@@ -1762,7 +1768,7 @@ img {
     color: #1c1c1c;
     font-size: 30px;
     margin-top: 25px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .call-to-action-section .upper-box h3 {
@@ -1834,7 +1840,7 @@ img {
     top: 0px;
     padding: 18px 32px;
     font-size: 16px;
-    color: #fc5655;
+    color: var(--light-blue);
     display: inline-block;
     background-color: #ffffff;
     cursor: pointer;
@@ -1899,7 +1905,7 @@ img {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(252, 86, 85, 0.90);
+    background-color: var(--vl-blue);
 }
 
 .events-section .event-column .inner-column .icon {
@@ -1911,7 +1917,7 @@ img {
     color: #ffffff;
     font-size: 30px;
     margin-top: 25px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .events-section .event-column .inner-column h2 {
@@ -1953,13 +1959,13 @@ img {
 
 .events-section .form-column .inner-column h2 {
     position: relative;
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
     text-align: center;
     margin-bottom: 25px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .default-form .form-group {
@@ -2001,7 +2007,7 @@ img {
 .default-form .form-group input[type="text"]:focus,
 .default-form .form-group input[type="email"]:focus,
 .default-form .form-group textarea:focus {
-    border-color: #fc5655;
+    border-color: var(--light-blue);
 }
 
 .default-form .form-group textarea {
@@ -2095,7 +2101,7 @@ img {
     margin-right: 10px;
     font-size: 14px;
     display: inline-block;
-    background-color: rgba(252, 86, 85, 0.67);
+    background-color: var(--vl-blue);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -2115,7 +2121,7 @@ img {
     margin-right: 10px;
     font-size: 14px;
     display: inline-block;
-    background-color: rgba(252, 86, 85, 0.67);
+    background-color: var(--vl-blue);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -2126,7 +2132,7 @@ img {
 .works-section .owl-nav .owl-prev:hover,
 .works-section .owl-nav .owl-next:hover {
     color: #ffffff;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 .works-section .owl-dots {
@@ -2164,7 +2170,7 @@ img {
     color: #ffffff;
     opacity: 0;
     text-align: center;
-    background: rgba(252, 86, 85, 0.80);
+    background: var(--vl-blue);
     -webkit-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
     -o-transition: all 900ms ease;
@@ -2236,7 +2242,7 @@ img {
     font-weight: 400;
     line-height: 1.2em;
     display: inline-block;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 /*** 
@@ -2261,7 +2267,7 @@ img {
     position: relative;
     text-align: center;
     padding: 35px 35px;
-    background-color: rgba(252, 86, 85, 0.10);
+    background-color: rgba(94, 231, 255, 0.1);
     background-position: 100% 0%;
     background-repeat: no-repeat;
 }
@@ -2273,7 +2279,7 @@ img {
     margin: 0 auto;
     border-radius: 50%;
     overflow: hidden;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 .price-block .inner-box .image img {
@@ -2313,7 +2319,7 @@ img {
 .price-block .inner-box .price {
     position: relative;
     font-size: 24px;
-    color: #fc5655;
+    color: var(--light-blue);
     font-weight: 500;
     line-height: 1.3em;
     margin-top: 15px;
@@ -2366,7 +2372,7 @@ img {
     margin: 0 auto;
     overflow: hidden;
     border-radius: 50%;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 .artist-block .inner-box .image img {
@@ -2405,7 +2411,7 @@ img {
 }
 
 .artist-block .inner-box h3 a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .artist-block .inner-box .designation {
@@ -2442,7 +2448,7 @@ img {
 }
 
 .artist-block .inner-box .social-box li a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 /*** 
@@ -2494,11 +2500,11 @@ img {
 
 .testimonial-block .inner-box .text {
     position: relative;
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 24px;
     line-height: 1.5em;
     margin-top: 18px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .testimonial-section .owl-nav {
@@ -2521,7 +2527,7 @@ img {
     opacity: 0.4;
     border: 2px solid #ffffff;
     display: inline-block;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -2531,7 +2537,7 @@ img {
 
 .testimonial-section .owl-dots .owl-dot.active,
 .testimonial-section .owl-dots .owl-dot:hover {
-    border-color: #fc5655;
+    border-color: var(--light-blue);
     opacity: 1;
 }
 
@@ -2617,7 +2623,7 @@ img {
     bottom: 0px;
     z-index: -1;
     border-radius: 10px;
-    background-color: rgba(252, 86, 85, 0.80);
+    background-color: var(--vl-blue);
 }
 
 .clients-section .rating-column .inner-column .image .overlay-box h3 {
@@ -2748,7 +2754,7 @@ img {
 }
 
 .news-block .inner-box .lower-content h3 a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .news-block .inner-box .lower-content .text {
@@ -2761,7 +2767,7 @@ img {
 
 .news-block .inner-box .lower-content .learn-more {
     position: relative;
-    color: #fc5655;
+    color: var(--light-blue);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -2825,7 +2831,7 @@ img {
     padding: 10px 18px;
     border-radius: 5px;
     background-color: rgba(252, 86, 85, 0.10);
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .instagram-section .title-box .profile .fa {
@@ -2924,7 +2930,7 @@ img {
     display: table;
     padding: 10px 20px;
     vertical-align: middle;
-    background: rgba(252, 86, 85, 0.90);
+    background: var(--vl-blue);
 }
 
 .instagram-block .overlay-inner .content {
@@ -2959,7 +2965,7 @@ img {
     position: relative;
     text-align: center;
     padding: 45px 0px 20px;
-    background-color: rgba(252, 86, 85, 0.10);
+    background-color: rgba(85, 191, 252, 0.1);
 }
 
 .main-footer .logo {
@@ -2989,7 +2995,7 @@ img {
     position: relative;
     width: 48px;
     height: 48px;
-    color: #fc5655;
+    color: var(--light-blue);
     line-height: 48px;
     font-size: 17px;
     text-align: center;
@@ -3004,7 +3010,7 @@ img {
 }
 
 .main-footer .social-box li a:hover {
-    background-color: #fc5655;
+    background-color: var(--light-blue);
     color: #ffffff;
 }
 
@@ -3070,7 +3076,7 @@ img {
     font-size: 45px;
     font-weight: 400;
     line-height: 1.3em;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .banner-section-two .content-column .content-box h1 {
@@ -3119,7 +3125,7 @@ img {
     line-height: 1.3em;
     text-align: center;
     margin-bottom: 9px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 /*** 
@@ -3202,7 +3208,7 @@ img {
     text-align: center;
     border-radius: 50%;
     padding-left: 4px;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
     display: inline-block;
     transition: all 900ms ease;
     -moz-transition: all 900ms ease;
@@ -3430,7 +3436,7 @@ img {
 }
 
 .service-block-two .inner-box .upper-box h3 a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .service-block-two .inner-box .text {
@@ -3495,7 +3501,7 @@ img {
     margin-right: 10px;
     font-size: 14px;
     display: inline-block;
-    background-color: rgba(252, 86, 85, 0.67);
+    background-color: var(--vl-blue);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -3515,7 +3521,7 @@ img {
     margin-right: 10px;
     font-size: 14px;
     display: inline-block;
-    background-color: rgba(252, 86, 85, 0.67);
+    background-color: var(--vl-blue);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -3526,7 +3532,7 @@ img {
 .works-section-two .owl-nav .owl-prev:hover,
 .works-section-two .owl-nav .owl-next:hover {
     color: #ffffff;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 .works-section-two .owl-dots {
@@ -3559,12 +3565,12 @@ img {
 
 .tutorial-block .inner-box .title {
     position: relative;
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 30px;
     font-weight: 400;
     z-index: 1;
     display: inline-block;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .tutorial-block .inner-box .title:before {
@@ -3648,11 +3654,11 @@ img {
 
 .testimonial-block-two .inner-box .text {
     position: relative;
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 24px;
     line-height: 1.5em;
     margin-top: 18px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .default-section .carousel-column .owl-nav {
@@ -3674,7 +3680,7 @@ img {
     opacity: 0.4;
     border: 2px solid #ffffff;
     display: inline-block;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -3684,7 +3690,7 @@ img {
 
 .default-section .carousel-column .owl-dots .owl-dot.active,
 .default-section .carousel-column .owl-dots .owl-dot:hover {
-    border-color: #fc5655;
+    border-color: var(--light-blue);
     opacity: 1;
 }
 
@@ -3772,7 +3778,7 @@ img {
     font-weight: 400;
     z-index: 1;
     display: inline-block;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .rating-section .image .overlay-box .title:before {
@@ -3784,7 +3790,7 @@ img {
     bottom: 0px;
     z-index: -1;
     border-radius: 10px;
-    background-color: #ff7f7e;
+    background-color: var(--vl-blue);
 }
 
 .rating-section .image .overlay-box h3 {
@@ -3883,7 +3889,7 @@ img {
 .contact-form .form-group input[type="email"]:focus,
 .contact-form .form-group select:focus,
 .contact-form .form-group textarea:focus {
-    border-color: #fa2964;
+    border-color: #007cb6;
 }
 
 .contact-form .form-group textarea {
@@ -4007,11 +4013,11 @@ img {
 }
 
 .about-section-two h3 span {
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 60px;
     line-height: 1em;
     display: block;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 /*** 
@@ -4042,7 +4048,7 @@ img {
     color: #1c1c1c;
     font-size: 40px;
     line-height: 1.3em;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .page-title-section .content .text {
@@ -4132,7 +4138,7 @@ img {
 
 .testimonial-block-three .inner-box .rating {
     position: relative;
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 14px;
     margin-top: 2px;
 }
@@ -4221,7 +4227,7 @@ img {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 8px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .work-detail-box .content .text {
@@ -4280,7 +4286,7 @@ img {
 
 .work-carousel-box .owl-nav .owl-prev:hover,
 .work-carousel-box .owl-nav .owl-next:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .work-carousel-box .owl-dots {
@@ -4363,7 +4369,7 @@ img {
     font-weight: 400;
     line-height: 1.3em;
     padding-bottom: 14px;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .gallery-block .inner-box .image .overlay-box .content h3 a {
@@ -4377,7 +4383,7 @@ img {
 }
 
 .gallery-block .inner-box .image .overlay-box .content h3 a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .gallery-block .inner-box .image .overlay-box .content .popup {
@@ -4386,7 +4392,7 @@ img {
     bottom: 0px;
     overflow: hidden;
     border-radius: 50%;
-    background-color: #fc5655;
+    background-color: var(--light-blue);
 }
 
 /*** 
@@ -4503,7 +4509,7 @@ img {
 }
 
 .blog-cat li a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .blog-cat li:last-child a {
@@ -4576,7 +4582,7 @@ img {
 }
 
 .sidebar .popular-posts .post a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .sidebar .popular-posts .post-info {
@@ -4610,7 +4616,7 @@ img {
 }
 
 .sidebar .popular-tags a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
     opacity: 1;
 }
 
@@ -4640,7 +4646,7 @@ img {
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    background-color: rgba(252, 86, 85, 0.70);
+    background-color: rgba(24, 250, 250, 0.7);
 }
 
 .instagram-widget .post-thumb .overlay-box .fa {
@@ -4742,7 +4748,7 @@ img {
 }
 
 .news-block-two .inner-box .lower-content h3 a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .news-block-two .inner-box .lower-content .post-meta {
@@ -4797,7 +4803,7 @@ img {
 }
 
 .news-block-two .inner-box .lower-content .read-more:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .styled-pagination {
@@ -4823,7 +4829,7 @@ img {
 
 .styled-pagination li a:hover,
 .styled-pagination li.current a {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 /* News Detail */
@@ -4949,7 +4955,7 @@ img {
     position: absolute;
     left: 0px;
     top: 12px;
-    color: #fc5655;
+    color: var(--light-blue);
     font-size: 64px;
     line-height: 1em;
 }
@@ -4993,14 +4999,14 @@ img {
 
 .news-detail .post-share-options .tags {
     position: relative;
-    color: #ff4800;
+    color: #0059ff;
     font-size: 16px;
     font-weight: 400;
     margin-top: 3px;
 }
 
 .news-detail .post-share-options .tags a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .news-detail .post-share-options .social-box {
@@ -5055,7 +5061,7 @@ img {
 }
 
 .news-detail .new-posts a:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 /*Author Box*/
@@ -5124,7 +5130,7 @@ img {
     font-weight: 400;
     margin-bottom: 25px;
     text-transform: capitalize;
-    font-family: 'Handlee', cursive;
+    /* font-family: 'Handlee', cursive; */
 }
 
 .sidebar-page-container .group-title .comment-txt {
@@ -5204,7 +5210,7 @@ img {
 }
 
 .sidebar-page-container .comments-area .comment-box .theme-btn:hover {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 /* Comment Form */
@@ -5245,7 +5251,7 @@ img {
 .comment-form .form-group input[type="email"]:focus,
 .comment-form .form-group select:focus,
 .comment-form .form-group textarea:focus {
-    border-color: #fa2964;
+    border-color: #6829fa;
 }
 
 .comment-form .form-group textarea {
@@ -5402,7 +5408,7 @@ img {
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error {
-    border-color: #ff0000 !important;
+    border-color: #3e00cf !important;
 }
 
 .contact-form label.error {
@@ -5412,7 +5418,7 @@ img {
     margin: 0px;
     text-transform: uppercase;
     font-size: 12px;
-    color: #ff0000;
+    color: #2f00ff;
     font-weight: 500;
 }
 
@@ -5440,7 +5446,7 @@ img {
 }
 
 .header-style-two .nav-outer .mobile-nav-toggler {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .mobile-menu {
@@ -5597,7 +5603,7 @@ img {
 
 .mobile-menu .navigation li:hover>a,
 .mobile-menu .navigation li.current>a {
-    color: #fc5655;
+    color: var(--light-blue);
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn {
