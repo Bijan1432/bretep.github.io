@@ -73,10 +73,19 @@ font-family: 'Prompt', sans-serif;
     outline: none;
 }
 :root{
-    --light-blue: #009edde0;
-    --vl-blue: #6cc5ee;
+    --light-blue: #193498;
+    --vl-blue: #69DADB;
+    
+   
+    
+    
+    --blue:#002366;
+    --md-blue:#0F52BA;
+    --pink:#FA8072;
+    --l-pink:#FFDAB9;
 
-}
+
+}F
 
 /*** 
 
@@ -106,7 +115,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: var(--light-blue);
+    color: var(--md-blue);
 
 }
 
@@ -227,7 +236,7 @@ img {
     font-weight: 400;
     overflow: hidden;
     overflow: hidden;
-    background-color: var(--light-blue);
+    background-color: var(--md-blue);
     text-transform: capitalize;
 }
 
@@ -271,7 +280,7 @@ img {
     display: inline-block;
     font-size: 15px;
     line-height: 30px;
-    color: var(--light-blue);
+    color: var(--md-blue);
     padding: 11px 30px;
     font-weight: 500;
     overflow: hidden;
@@ -344,7 +353,7 @@ img {
 
 .btn-style-three:hover {
     color: #ffffff;
-    background-color: var(--light-blue);
+    background-color: var(--md-blue);
 }
 
 /* Btn Style Four */
@@ -429,7 +438,7 @@ img {
 
 .btn-style-five:hover {
     color: #ffffff;
-    background-color: var(--light-blue);
+    background-color: var(--md-blue);
 }
 
 /* Btn Style Six */
@@ -613,7 +622,7 @@ img {
 
 .sec-title h2 {
     position: relative;
-    color: #1c1c1c;
+    color: var(--pink);
     font-weight: 600;
     font-size: 40px;
     line-height: 1.2em;
@@ -945,7 +954,7 @@ img {
 
 .main-menu .navigation>li:hover>a,
 .main-menu .navigation>li.current>a {
-    color: var(--light-blue);
+    color: var(--md-blue);
 }
 
 .main-header.header-style-two .social-icon-one li a {
@@ -1395,7 +1404,7 @@ img {
 
 .about-section .content-column h3 {
     position: relative;
-    color: #1c1c1c;
+    color: var(--pink);
     font-size: 32px;
     font-weight: 500;
     line-height: 1.2em;
@@ -1431,7 +1440,7 @@ img {
 
 .featured-block .block-inner h4 {
     position: relative;
-    color: #1c1c1c;
+    color: var(--md-blue);
     font-size: 16px;
     margin-top: 15px;
 }
@@ -1670,7 +1679,7 @@ img {
 .call-to-action-section {
     position: relative;
     padding: 100px 0px 80px;
-    background-color: rgba(85, 199, 252, 0.2);
+    background-color: rgb(251 44 44 / 8%);
 }
 
 .call-to-action-section.style-two {
@@ -2101,7 +2110,7 @@ img {
     margin-right: 10px;
     font-size: 14px;
     display: inline-block;
-    background-color: var(--vl-blue);
+    background-color: var(--pink);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -2121,7 +2130,7 @@ img {
     margin-right: 10px;
     font-size: 14px;
     display: inline-block;
-    background-color: var(--vl-blue);
+    background-color: var(--pink);
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -2132,7 +2141,7 @@ img {
 .works-section .owl-nav .owl-prev:hover,
 .works-section .owl-nav .owl-next:hover {
     color: #ffffff;
-    background-color: var(--light-blue);
+    background-color:  var(--blue);
 }
 
 .works-section .owl-dots {
@@ -2170,7 +2179,7 @@ img {
     color: #ffffff;
     opacity: 0;
     text-align: center;
-    background: var(--vl-blue);
+    background:  var(--l-pink);
     -webkit-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
     -o-transition: all 900ms ease;
@@ -2226,7 +2235,7 @@ img {
 .work-block .inner-box .image .overlay-box h3:before {
     position: absolute;
     content: '';
-    left: 0px;
+    left: 20px;
     top: -80px;
     width: 230px;
     height: 230px;
@@ -2267,7 +2276,7 @@ img {
     position: relative;
     text-align: center;
     padding: 35px 35px;
-    background-color: rgba(94, 231, 255, 0.1);
+    background-color: rgb(251 44 44 / 8%);
     background-position: 100% 0%;
     background-repeat: no-repeat;
 }
@@ -2462,7 +2471,7 @@ img {
 .testimonial-section {
     position: relative;
     padding: 100px 0px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 15px 25px rgb(255 0 0 / 5%);
 }
 
 .testimonial-section.style-two {
@@ -2814,7 +2823,7 @@ img {
 
 .instagram-section .title-box h2 {
     position: relative;
-    color: #1c1c1c;
+    color: var(--md-blue);
     font-size: 40px;
     font-weight: 600;
     line-height: 1.3em;
@@ -2822,7 +2831,7 @@ img {
 
 .instagram-section .title-box .profile {
     position: relative;
-    color: #1c1c1c;
+    color: var(--md-blue);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.3em;
@@ -2930,7 +2939,7 @@ img {
     display: table;
     padding: 10px 20px;
     vertical-align: middle;
-    background: var(--vl-blue);
+    background: var(--pink);
 }
 
 .instagram-block .overlay-inner .content {
@@ -2965,7 +2974,7 @@ img {
     position: relative;
     text-align: center;
     padding: 45px 0px 20px;
-    background-color: rgba(85, 191, 252, 0.1);
+    background-color: rgb(255 169 169 / 10%);
 }
 
 .main-footer .logo {
@@ -3044,7 +3053,7 @@ img {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.60);
+    background-color: rgb(35 58 60 / 36%);
 }
 
 .banner-section-two .content-column {
@@ -3072,10 +3081,11 @@ img {
 
 .banner-section-two .content-column .content-box .title {
     position: relative;
-    color: #ffffff;
+    color: #fff;
     font-size: 45px;
     font-weight: 400;
     line-height: 1.3em;
+    text-decoration: none;
     /* font-family: 'Handlee', cursive; */
 }
 
@@ -3119,7 +3129,7 @@ img {
 }
 .banner-section-two .form-column h2 {
     position: relative;
-    color: #ffffff;
+    color: var(--md-blue);
     font-size: 30px;
     font-weight: 400;
     line-height: 1.3em;
@@ -3462,6 +3472,17 @@ img {
 .service-block-two .inner-box:hover .btn-box {
     opacity: 1;
 }
+
+.services-section::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 20%;
+    background-color:rgb(251 44 44 / 8%);
+}
+
+
 
 /*** 
 
